@@ -29,7 +29,7 @@ export const NPM_COMMAND = process.platform === 'win32' ? 'npm.cmd' : 'npm';
 export const DEFAULT_NODES_EXCLUDES = [
   "10-mqtt.js",
   "16-range.js",
-  "31-tcpin.js",
+  "#31-tcpin.js",
   "32-udp.js",
   "89-trigger.js"
 ];

@@ -32,12 +32,12 @@ const DEFAULT_CONFIG: CONFIG = {
   credentialSecret: app.name,
   projectsEnabled: false,
   nodesExcludes: DEFAULT_NODES_EXCLUDES,
-  autoCheckUpdate: true,
+  autoCheckUpdate: false,
   allowPrerelease: false,
   autoDownload: false,
-  hideOnMinimize: false,
+  hideOnMinimize: true,
   httpNodeAuth: {user: "", pass: ""},
-  listenPort: "",
+  listenPort: "1880",
   debugOut: false
 };
 
